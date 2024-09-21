@@ -17,7 +17,32 @@
   --scroll-navbar-link-hover-end: #33106b;
 
   /* shadow color */
-  --shadow-color:#6638a1;;
+  --shadow-color: #6638a1;
+
+  /* main navbar */
+  --introduction-title-start: #8750f7;
+  --introduction-title-end: #fff;
+
+  /* social media icons colors */
+  --social-media-icon-color: #8560d1;
+  --social-media-icon-color-hover: #260664;
+  --social-media-icon-border-color: #8560d1;
+
+  /* download cv button */
+  --download-cv-icon-color: #8560d1;
+  --download-cv-icon-color-hover: #260664;
+  --download-cv-icon-border-color: #8560d1;
+
+    /* top up text */
+    --top-up-text-stroke-start:#ba95f7;
+    --top-up-text-stroke-end:#8353e4;
+    --top-up-text-fill:#dbd0f1;
+
+    /* my image */
+    --my-image-border-color: #3d05ad;
+    --my-image-border-color-hover: #9459fa;
+    --my-image-shadow-color-hover: #9459fa;
+
 }
 
 @media (prefers-color-scheme: dark) {

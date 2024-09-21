@@ -1,0 +1,10 @@
+.myImage {
+  transform: rotate(-3deg);
+  border: 2px solid var(--my-image-border-color);
+  transition: all 1s;
+}
+
+.myImage:hover {
+  transform: rotate(0);
+  border: 2px solid var(--my-image-border-color-hover);
+}

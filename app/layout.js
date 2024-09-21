@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
             <CustomCursor />
           </div>
           <div>
-            <div className="relative text-black">
+            <div className="relative text-black mt-40">
               {children}
             </div>
           </div>
