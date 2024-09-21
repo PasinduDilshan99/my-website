@@ -24,3 +24,30 @@ export const myShortSummery = [
   { id: 3, value: "3", valueIcon: "", text1: "happy", text2: "Clients" },
   { id: 4, value: "2", valueIcon: "", text1: "Years of", text2: "Experience" },
 ];
+
+export const myQualityServices = [
+  {
+    id: 1,
+    value: "01",
+    title: "Branding Design",
+    text: "Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.",
+  },
+  {
+    id: 2,
+    value: "02",
+    title: "Web Design",
+    text: "Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.",
+  },
+  {
+    id: 3,
+    value: "03",
+    title: "UI/UX Design",
+    text: "Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.",
+  },
+  {
+    id: 4,
+    value: "04",
+    title: "Graphics Design",
+    text: "Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.",
+  },
+];

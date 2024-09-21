@@ -19,7 +19,7 @@
   /* shadow color */
   --shadow-color: #6638a1;
 
-  /* main navbar */
+  /* introduction */
   --introduction-title-start: #8750f7;
   --introduction-title-end: #fff;
 
@@ -33,16 +33,25 @@
   --download-cv-icon-color-hover: #260664;
   --download-cv-icon-border-color: #8560d1;
 
-    /* top up text */
-    --top-up-text-stroke-start:#ba95f7;
-    --top-up-text-stroke-end:#8353e4;
-    --top-up-text-fill:#dbd0f1;
+  /* top up text */
+  --top-up-text-stroke-start: #ba95f7;
+  --top-up-text-stroke-end: #8353e4;
+  --top-up-text-fill: #dbd0f1;
 
-    /* my image */
-    --my-image-border-color: #3d05ad;
-    --my-image-border-color-hover: #9459fa;
-    --my-image-shadow-color-hover: #9459fa;
+  /* my image */
+  --my-image-border-color: #3d05ad;
+  --my-image-border-color-hover: #9459fa;
+  --my-image-shadow-color-hover: #9459fa;
 
+  /* services table */
+  --service-table-start: #6a4ca1;
+  --service-table-end: #100227;
+  --service-table-number: #390c80;
+  --service-table-number-hover: #733ec7;
+
+    /* service */
+    --service-title-start: #8750f7;
+    --service-title-end: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
