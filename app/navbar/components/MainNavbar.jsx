@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { myDetails } from "../../../assets/myDetails";
+import { navBarLinks } from "../../../assets/navBarDetails";
 import "../css/mainNavbar.css";
 
 const MainNavbar = () => {
@@ -13,14 +13,7 @@ const MainNavbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const links = [
-    { id: 1, text: "Home", link: "/" },
-    { id: 2, text: "About", link: "/about" },
-    { id: 3, text: "Services", link: "/services" },
-    { id: 4, text: "Projects", link: "/projects" },
-    { id: 5, text: "Blog", link: "/blogs" },
-    { id: 6, text: "Contact", link: "/contact" },
-  ];
+  const links = navBarLinks;
 
   const handleClickOutside = (event) => {
     if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -36,18 +29,18 @@ const MainNavbar = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 backdrop-blur-md z-50 lg:flex lg:justify-center text-white w-full">
+    <div className="fixed top-0 left-0 right-0 backdrop-blur-md z-50 pt-4 lg:flex lg:justify-center text-white w-full">
       <div className="flex justify-between px-4 items-center w-full ">
         <div className="md:grid md:grid-rows-[auto] w-full">
           <div className="flex justify-between items-center md:mx-[5%] mx-[2%]">
-            <div className="flex m-6 rounded-xl md:px-4 md:p-0 p-2 md:rounded-lg transition-transform duration-300 hover:scale-105">
+            <div className="flex rounded-xl  md:rounded-lg transition-transform duration-300 hover:scale-105">
               <div className="justify-center hidden md:flex content-center">
                 <Image
                   src="/logo.webp"
                   width={35}
                   height={35}
                   alt="logo"
-                  className="m-4 ghi"
+                  className="m-4"
                 />
               </div>
               <div

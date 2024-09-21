@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "./navbar/components/NavBar";
+import CustomCursor from "./customCursor/CustomCursor";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 // import NewNavBar from "./components/NewNavBar";
@@ -20,12 +22,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div>
-          {/* <div className="fixed z-50">
-            <NewNavBar />
+          <div className="fixed z-50">
+            <Navbar />
           </div>
           <div>
             <CustomCursor />
-          </div> */}
+          </div>
           <div>
             <div className="relative text-black">
               {children}

@@ -4,8 +4,20 @@
 
 :root {
   --background: #2a1454;
-  --hover-button: #ccb1fa;
   --foreground: #0f0715;
+  /* main navbar */
+  --navbar-button-start: #ccb1fa;
+  --navbar-button-end: #ccb1fa;
+  --navbar-link-hover-start: #ccb1fa;
+  --navbar-link-hover-end: #ccb1fa;
+  /* scroll navbar */
+  --scroll-navbar-button-start: #ffffff;
+  --scroll-navbar-button-end: #ccb1fa;
+  --scroll-navbar-link-hover-start: #d6c0fc;
+  --scroll-navbar-link-hover-end: #33106b;
+
+  /* shadow color */
+  --shadow-color:#6638a1;;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,18 +38,21 @@ body {
     var(--background),
     var(--foreground)
   );
-  min-height: 100vh;
+  min-height: 150vh;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .dot {
   position: absolute;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(248, 242, 242, 0) 70%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(248, 242, 242, 0) 70%
+  );
   border-radius: 50%;
   width: 350px;
   height: 350px;
 }
-
 
 .dot1 {
   top: -10%;

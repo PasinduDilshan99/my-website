@@ -1,14 +1,3 @@
-import MainNavbar from "./navbar/components/MainNavbar";
-
 export default function Home() {
-  return (
-    <main className="">
-      <MainNavbar />
-      <div class="container">
-        <div class="dot dot1"></div>
-        <div class="dot dot2"></div>
-        <div class="dot dot3"></div>
-      </div>
-    </main>
-  );
+  return <main className="md:mt-56 mt-20 relative"></main>;
 }
