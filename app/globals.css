@@ -17,7 +17,22 @@
   --scroll-navbar-link-hover-end: #33106b;
 
   /* shadow color */
-  --shadow-color:#6638a1;;
+  --shadow-color: #6638a1;
+
+  /* main navbar */
+  --introduction-title-start: #8750f7;
+  --introduction-title-end: #fff;
+
+  /* social media icons colors */
+  --social-media-icon-color: #8560d1;
+  --social-media-icon-color-hover: #260664;
+  --social-media-icon-border-color: #8560d1;
+
+  /* download cv button */
+  --download-cv-icon-color: #8560d1;
+  --download-cv-icon-color-hover: #260664;
+  --download-cv-icon-border-color: #8560d1;
+
 }
 
 @media (prefers-color-scheme: dark) {

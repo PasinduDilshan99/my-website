@@ -1,0 +1,10 @@
+.titleGradient {
+    background: linear-gradient(
+      to right,
+      var(--introduction-title-start),
+      var(--introduction-title-end)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
