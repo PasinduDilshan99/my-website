@@ -50,8 +50,14 @@
   --service-table-number-hover: #733ec7;
 
     /* service */
-    --service-title-start: #8750f7;
+    --service-title-start: #3a0e92;
     --service-title-end: #fff;
+
+    /* recent works */
+    --recent-works-start-bg: #522aa3;
+    --recent-works-end-bg: #0f0715;
+    --recent-works-start: #3a0e92;
+    --recent-works-end: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
