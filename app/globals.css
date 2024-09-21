@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #2a1454;
+  --hover-button: #ccb1fa;
+  --foreground: #0f0715;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,14 +15,61 @@
   }
 }
 
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background: radial-gradient(
+    circle at top left,
+    var(--background),
+    var(--foreground)
+  );
+  min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.dot {
+  position: absolute;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(248, 242, 242, 0) 70%);
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+
+
+.dot1 {
+  top: -10%;
+  right: 0;
+}
+
+.dot2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dot3 {
+  bottom: 0%;
+  left: 0;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* for test cases */
+.abc {
+  border: 2px solid black;
+}
+
+.def {
+  border: 2px solid white;
+}
+
+.ghi {
+  border: 2px solid red;
 }
