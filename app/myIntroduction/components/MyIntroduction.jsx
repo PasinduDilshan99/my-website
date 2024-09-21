@@ -1,17 +1,23 @@
 import React from "react";
 import MyIntroductionText from "./MyIntroductionText";
 import MyIntroductionImage from "./MyIntroductionImage";
+import ShortSummery from "./ShortSummery";
 
 const MyIntroduction = () => {
   return (
-    <div className="abc md:mx-[5%] xl:mx-[10%] mx-[3%]">
-      <div className="flex md:flex-row flex-col-reverse">
-        <div>
-          <MyIntroductionText />
+    <div className="xl:mx-[5%] mx-[3%] flex flex-col">
+      <div className="">
+        <div className="flex md:flex-row md:items-center flex-col-reverse">
+          <div className="grow w-full">
+            <MyIntroductionText />
+          </div>
+          <div className="w-[60%] flex justify-center items-center">
+            <MyIntroductionImage />
+          </div>
         </div>
-        <div>
-          <MyIntroductionImage />
-        </div>
+      </div>
+      <div className="mt-10">
+        <ShortSummery />
       </div>
     </div>
   );

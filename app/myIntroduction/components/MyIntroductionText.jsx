@@ -6,13 +6,15 @@ import DownloadCV from "./DownloadCV";
 
 const MyIntroductionText = () => {
   return (
-    <div className="flex flex-col gap-4 my-3">
+    <div className="flex flex-col gap-6 my-3">
       <div className="text-5xl text-white">{MyIntroductionDetails.myName}</div>
-      <div className="titleGradient text-7xl font-bold">
-        {MyIntroductionDetails.positionI}
-      </div>
-      <div className="titleGradient text-7xl font-bold">
-        {MyIntroductionDetails.positionII}
+      <div>
+        <div className="titleGradient text-7xl font-bold">
+          {MyIntroductionDetails.positionI}
+        </div>
+        <div className="titleGradient text-7xl font-bold">
+          {MyIntroductionDetails.positionII}
+        </div>
       </div>
       <div className="text-white text-2xl max-w-[50%]">
         {MyIntroductionDetails.smallIntroduction}
