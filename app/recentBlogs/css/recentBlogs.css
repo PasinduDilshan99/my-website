@@ -1,0 +1,7 @@
+.recentBlogBg {
+  background-image: linear-gradient(
+    to top,
+    var(--recent-blogs-bg-start),
+    var(--recent-blogs-bg-end)
+  );
+}
