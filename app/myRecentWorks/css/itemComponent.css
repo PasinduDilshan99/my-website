@@ -1,0 +1,17 @@
+.itemComponent {
+  background: linear-gradient(
+    to right,
+    var(--card-component-bg-start),
+    var(--card-component-bg-end)
+  );
+  transition: background 2s ease-out;
+}
+
+
+.itemComponent:hover {
+    background: linear-gradient(
+      to right,
+      var(--card-component-bg-start-hover),
+      var(--card-component-bg-end-hover)
+    );
+  }
