@@ -1,3 +1,4 @@
+'use client'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
@@ -10,6 +11,7 @@ import { faDatabase, faCode, faCogs } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import TitleComponent from "./TitleComponent";
 import SkillCard from "./SkillCard";
+import Slider from "react-slick";
 
 const MySkills = () => {
   const mySkills = [
@@ -43,33 +45,69 @@ const MySkills = () => {
     }, // Oracle color
   ];
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    pauseOnHover: true,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 3000,
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1536,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
-    <div className="flex flex-col items-center text-center my-20 gap-5">
+    <div className="flex flex-col items-center py-20 gap-5 bg-[--skills-bg]">
       <div>
         <TitleComponent props={{ title: "My Skills" }} />
       </div>
-      <div className="text-[--skills-text] text-xl ">
+      <div className="text-[--skills-text] text-xl max-w-[60%] text-center">
         We put your ideas and thus your wishes in the form of a unique web
         project that inspires you and your customers.
       </div>
-      <div className="flex gap-5 flex-wrap">
-        {mySkills.map((mySkill) => {
-          return (
-            <div key={mySkill.id} className="min-w-[20%]">
-              <SkillCard
-                props={{
-                  ...mySkill,
-                  iconComponent: (
-                    <FontAwesomeIcon
-                      icon={mySkill.icon}
-                      style={{ color: mySkill.color, fontSize: "3rem" }}
-                    />
-                  ),
-                }}
-              />
-            </div>
-          );
-        })}
+      <div className="max-w-[80vw]">
+        <Slider {...settings}>
+          {mySkills.map((mySkill) => {
+            return (
+              <div key={mySkill.id} className="px-4 my-5">
+                <SkillCard
+                  props={{
+                    ...mySkill,
+                    iconComponent: (
+                      <FontAwesomeIcon
+                        icon={mySkill.icon}
+                        style={{ color: mySkill.color, fontSize: "3rem" }}
+                      />
+                    ),
+                  }}
+                />
+              </div>
+            );
+          })}
+        </Slider>
       </div>
     </div>
   );

@@ -2,12 +2,15 @@
 import { useState, useEffect } from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import Navbar from "./navbar/components/NavBar";
 import CustomCursor from "./customCursor/CustomCursor";
 import Loading from "./loading/components/Loading";
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css'; // Import Font Awesome CSS
-config.autoAddCss = false; // Prevent Font Awesome from adding CSS automatically
+config.autoAddCss = false; 
+
 
 // Import metadata from the new metadata.js file
 import { metadata } from "./metadata";
