@@ -2,6 +2,7 @@ import MyIntroduction from "./myIntroduction/components/MyIntroduction";
 import TopUpText from "./myIntroduction/components/TopUpText";
 import MyQualityServices from "./myQualityServices/components/MyQualityServices";
 import MyRecentWorks from "./myRecentWorks/components/MyRecentWorks";
+import Qualification from "./qulification/components/Qualification";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
         </div>
         <div>
           <MyRecentWorks />
+        </div>
+        <div>
+          <Qualification />
         </div>
       </div>
     </main>

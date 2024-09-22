@@ -66,6 +66,22 @@
   --recent-works-card-label-button-circle: #1c0c3a;
   --recent-works-filter-button-hover-start: #baa0ec;
   --recent-works-filter-button-hover-end: #5824b9;
+
+  /* title component */
+  --title-component-start: #6a4ca1;
+  --title-component-end: #1c0c3a;
+
+  /* qualification item component */
+  --card-component-bg-start: #0f0715;
+  --card-component-bg-end: #080313;
+  --card-component-duration: #8750f7;
+  --card-component-bg-start-hover: #471f66;
+  --card-component-bg-end-hover: #2c0a75;
+  --card-component-duration-hover: #ffffff;
+  --card-component-title: #fff;
+  --card-component-address: #DDDDDD;
+  
+
 }
 
 @media (prefers-color-scheme: dark) {
