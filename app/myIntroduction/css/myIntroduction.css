@@ -1,0 +1,22 @@
+.myIntroductionBubble {
+    background-image: radial-gradient(
+        circle,
+        var(--recent-works-start-bg) 1%,
+        var(--recent-works-end-bg) 20%
+      );
+      background-size: 200%;
+      background-position: center;
+      animation: recentWorksBg 10s infinite ease-in-out;
+  }
+  
+  @keyframes myIntroductionBubble {
+    0% {
+      background-size: 150%;
+    }
+    50% {
+      background-size: 100%;
+    }
+    100% {
+      background-size: 300%;
+    }
+  }
