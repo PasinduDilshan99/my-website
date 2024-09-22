@@ -1,0 +1,9 @@
+.titleComponent {
+  background: linear-gradient(
+    to right,
+    var(--skills-title-component-start),
+    var(--skills-title-component-start)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

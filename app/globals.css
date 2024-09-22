@@ -80,7 +80,19 @@
   --card-component-duration-hover: #ffffff;
   --card-component-title: #fff;
   --card-component-address: #DDDDDD;
-  
+
+  /* my skills */
+  --skills-bg: #06010a;
+  --skills-title-component-start: #6a4ca1;
+  --skills-title-component-end: #1c0c3a;
+  --skills-text: #ddd;
+
+  /* my skill card */
+  --skills-card-bg: #140c1c;
+  --skills-card-bg-hover: #431c92;
+  --skills-card-border-hover: #8750f7;
+  --skills-card-title: #8750f7;
+
 
 }
 
