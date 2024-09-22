@@ -1,0 +1,33 @@
+.clientStoriesBubble {
+  background-image: radial-gradient(
+    circle,
+    var(--client-stories-bg-start) 10%,
+    var( --client-stories-bg-end) 20%
+  );
+  background-size: 200%;
+  /* opacity: 0.5; */
+  background-position: 90%;
+}
+
+.clientTitle {
+  background: linear-gradient(
+    to right,
+    var(--client-stories-title-start),
+    var(--client-stories-title-end)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.slick-dots li button {
+  background-color: var(--stick-dots-bg);
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+  background-color: var(--stick-dots-bg-active);
+}
