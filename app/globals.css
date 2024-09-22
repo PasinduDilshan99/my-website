@@ -49,15 +49,23 @@
   --service-table-number: #390c80;
   --service-table-number-hover: #733ec7;
 
-    /* service */
-    --service-title-start: #3a0e92;
-    --service-title-end: #fff;
+  /* service */
+  --service-title-start: #3a0e92;
+  --service-title-end: #fff;
 
-    /* recent works */
-    --recent-works-start-bg: #522aa3;
-    --recent-works-end-bg: #0f0715;
-    --recent-works-start: #3a0e92;
-    --recent-works-end: #fff;
+  /* recent works */
+  --recent-works-start-bg: #522aa3;
+  --recent-works-end-bg: #0f0715;
+  --recent-works-start: #3a0e92;
+  --recent-works-end: #fff;
+  --recent-works-card-hover-shadow: #744ac7;
+  --recent-works-card-label-background: #59467c;
+  --recent-works-card-label-background-hover: #3d2270;
+  --recent-works-card-label-border: #321272;
+  --recent-works-card-label-button: #512f94;
+  --recent-works-card-label-button-circle: #1c0c3a;
+  --recent-works-filter-button-hover-start: #baa0ec;
+  --recent-works-filter-button-hover-end: #5824b9;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -73,14 +81,28 @@
 }
 
 body {
-  background: radial-gradient(
-    circle at top left,
-    var(--background),
-    var(--foreground)
+  background-image: radial-gradient(
+    circle,
+    var(--recent-works-start-bg) 1%,
+    var(--recent-works-end-bg) 20%
   );
-  min-height: 150vh;
+  min-height: 100vh;
+  background-position: top right;
+  animation: bodyBubble 4s infinite ease-in-out;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* @keyframes bodyBubble {
+  0% {
+    background-size: 150%;
+  }
+  50% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 150%;
+  }
+} */
 
 .dot {
   position: absolute;
