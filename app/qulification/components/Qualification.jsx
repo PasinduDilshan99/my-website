@@ -4,7 +4,7 @@ import Education from "./Education";
 
 const Qualification = () => {
   return (
-    <div className="flex bg-black text-white p-10 ghi justify-evenly">
+    <div className="flex bg-black text-white p-10 justify-evenly">
       <Experience />
       <Education />
     </div>

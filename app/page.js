@@ -1,3 +1,4 @@
+import ClientStories from "./clientStories/components/ClientStories";
 import MyIntroduction from "./myIntroduction/components/MyIntroduction";
 import TopUpText from "./myIntroduction/components/TopUpText";
 import MyQualityServices from "./myQualityServices/components/MyQualityServices";
@@ -26,6 +27,9 @@ export default function Home() {
         </div>
         <div>
           <MySkills />
+        </div>
+        <div className="">
+          <ClientStories />
         </div>
       </div>
     </main>

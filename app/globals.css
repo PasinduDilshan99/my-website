@@ -79,10 +79,10 @@
   --card-component-bg-end-hover: #2c0a75;
   --card-component-duration-hover: #ffffff;
   --card-component-title: #fff;
-  --card-component-address: #DDDDDD;
+  --card-component-address: #dddddd;
 
   /* my skills */
-  --skills-bg: #06010a;
+  --skills-bg: #0f0715;
   --skills-title-component-start: #6a4ca1;
   --skills-title-component-end: #1c0c3a;
   --skills-text: #ddd;
@@ -90,10 +90,23 @@
   /* my skill card */
   --skills-card-bg: #140c1c;
   --skills-card-bg-hover: #431c92;
-  --skills-card-border-hover: #8750f7;
+  --skills-card-border-hover: #180b31;
   --skills-card-title: #8750f7;
 
+  /* client stories */
+  --client-stories-bg-start: #5c3e74;
+  --client-stories-bg-end: #1a0f2c;
+  --client-stories-title-start: #7b17ce;
+  --client-stories-title-end: #e0d7ee;
+  --client-card-bg: #140c1c;
+  --client-card-icon: #7a39bb;
+  --client-text: #ddd;
+  --client-card-shadow-hover: #431c92;
 
+
+  /* stick dots  */
+  --stick-dots-bg: #9474ad;
+  --stick-dots-bg-active: #6310a7;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -102,6 +115,8 @@
     --foreground: #ededed;
   }
 }
+
+
 
 .container {
   position: relative;
