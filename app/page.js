@@ -1,4 +1,5 @@
 import ClientStories from "./clientStories/components/ClientStories";
+import Footer from "./footer/components/Footer";
 import Form from "./form/components/Form";
 import MyIntroduction from "./myIntroduction/components/MyIntroduction";
 import TopUpText from "./myIntroduction/components/TopUpText";
@@ -38,6 +39,9 @@ export default function Home() {
         </div>
         <div>
           <Form />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </main>
