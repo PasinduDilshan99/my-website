@@ -1,4 +1,5 @@
 import ClientStories from "./clientStories/components/ClientStories";
+import Form from "./form/components/Form";
 import MyIntroduction from "./myIntroduction/components/MyIntroduction";
 import TopUpText from "./myIntroduction/components/TopUpText";
 import MyQualityServices from "./myQualityServices/components/MyQualityServices";
@@ -11,7 +12,7 @@ export default function Home() {
   return (
     <main className="">
       <div className="relative">
-        <div className="hidden lg:flex absolute top-[15%] right-[40%]">
+        <div className="hidden lg:flex absolute top-[5%] right-[42%]">
           <TopUpText />
         </div>
         <div className=" z-10">
@@ -34,6 +35,9 @@ export default function Home() {
         </div>
         <div>
           <RecentBlogs />
+        </div>
+        <div>
+          <Form />
         </div>
       </div>
     </main>

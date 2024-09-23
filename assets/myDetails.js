@@ -1,6 +1,17 @@
+import CallOutlinedIcon from "@mui/icons-material/CallOutlined";
+import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
+import FmdGoodOutlinedIcon from "@mui/icons-material/FmdGoodOutlined";
+
 export const myDetails = {
   name: "Pasindu Dilshan",
   firstname: "Pasindu",
+  mobileNumber: "+94707076052",
+  address: {
+    number: "351/10",
+    street: "Rajasinghe Mawatha",
+    village: "Hewagama",
+    city: "kaduwela",
+  },
   sampleEmailMessage: "Sample message here ..............",
   emailComplimentaryClose: "Best Regards",
   emailUserName: "username",
@@ -112,4 +123,26 @@ export const myEducations = [
   },
 ];
 
-
+export const contactDetails = [
+  {
+    id: 1,
+    icon: CallOutlinedIcon,
+    title: "Phone",
+    text1: "+94707076052",
+    text2: "",
+  },
+  {
+    id: 2,
+    icon: EmailOutlinedIcon,
+    title: "Email",
+    text1: "pd.dimbulana@gmail.com",
+    text2: "",
+  },
+  {
+    id: 3,
+    icon: FmdGoodOutlinedIcon,
+    title: "Address",
+    text1: "351/10 Rajasinghe Mawatha,",
+    text2: "Hewagama, Kaduwela",
+  },
+];
