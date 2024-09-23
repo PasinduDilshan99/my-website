@@ -112,7 +112,6 @@
   --recent-blogs-title-end: #fff;
   --recent-blogs-text: #ddd;
   --recent-blogs-bg-start: #150125;
-  --recent-blogs-bg-end: #020103;
   --recent-blogs-card-start: #2a1454;
   --recent-blogs-card-end: #8750f7;
   --recent-blogs-card-start-hover: #c6c5c9;
@@ -121,6 +120,17 @@
   --recent-blogs-card-tag-end: #2a1454;
   --recent-blogs-card-text: #8750f7;
   --recent-blogs-card-shadow-hover: #8750f7;
+
+  /* form  */
+  --form-bg: #2a1454;
+  --form-text-bg: #050709;
+  --form-text-border: #22272c;
+  --form-button-start: #5e33af;
+  --form-button-end: #2b0f58;
+  --form-title-start: #4504cf;
+  --form-title-end: #ddccf7;
+  --form-input-active-border: #4504cf;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -129,8 +139,6 @@
     --foreground: #ededed;
   }
 }
-
-
 
 .container {
   position: relative;

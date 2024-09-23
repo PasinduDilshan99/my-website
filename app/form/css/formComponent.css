@@ -1,0 +1,30 @@
+.formSubmitButton {
+  background-image: linear-gradient(
+    to right,
+    var(--form-button-start),
+    var(--form-button-end)
+  );
+  transition: all 5s ease-in-out;
+}
+
+.formSubmitButton:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--form-button-end),
+      var(--form-button-start)
+    );
+  }
+
+.formTitle {
+  background-image: linear-gradient(
+    to right,
+    var(--form-title-start),
+    var(--form-title-end)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input:focus {
+  border: 4px solid var(--form-input-active-border);
+}

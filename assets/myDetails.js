@@ -1,6 +1,13 @@
 export const myDetails = {
   name: "Pasindu Dilshan",
   firstname: "Pasindu",
+  mobileNumber: "+94707076052",
+  address: {
+    number: "351/10",
+    street: "Rajasinghe Mawatha",
+    village: "Hewagama",
+    city: "kaduwela",
+  },
   sampleEmailMessage: "Sample message here ..............",
   emailComplimentaryClose: "Best Regards",
   emailUserName: "username",
@@ -111,5 +118,3 @@ export const myEducations = [
     address: "ATARI",
   },
 ];
-
-
