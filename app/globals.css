@@ -5,11 +5,23 @@
 :root {
   --background: #2a1454;
   --foreground: #0f0715;
+
   /* main navbar */
-  --navbar-button-start: #ccb1fa;
+  --navbar-button-start: #32077c;
   --navbar-button-end: #ccb1fa;
+  --navbar-button-start-hover: #ccb1fa;
+  --navbar-button-end-hover: #230655;
   --navbar-link-hover-start: #ccb1fa;
   --navbar-link-hover-end: #ccb1fa;
+  --navbar-link-text: #e3daf3;
+  --navbar-link-text-hover: #8b4cf8;
+  --navbar-name: #e5d9f8;
+  --navbar-name-hover: #7c41e9;
+  --navbar-text: #e5d9f8;
+  --navbar-text-hover: #7c41e9;
+  --navbar-logo-bg:#2d0a6e;
+  --navbar-logo-bg-hover:#d9d0eb;
+
   /* scroll navbar */
   --scroll-navbar-button-start: #ffffff;
   --scroll-navbar-button-end: #ccb1fa;
@@ -143,7 +155,7 @@
   --footer-social-media-icon-color: #8560d1;
   --footer-social-media-icon-color-hover: #260664;
   --footer-social-media-icon-border-color: #8560d1;
-  --footer-contact-information-icon:#5a1cd6;
+  --footer-contact-information-icon: #5a1cd6;
   --footer-top-horizontal-line: #b293f0;
   --footer-input-bg: #fcfbff;
   --footer-input-text: #3c00f1;
@@ -155,11 +167,11 @@
   --footer-btn-bg-start-hover: #cebaf7;
   --footer-btn-bg-end-hover: #4408bb;
   --footer-btn-text-hover: #eadfff;
-  --footer-links-title:#f5f1fc;
-  --footer-links-text:#e7def7;
-  --footer-links-text-hover:#5d00ff;
-  --footer-logo:#c3ade9;
-  --footer-logo-hover:#5813ce;
+  --footer-links-title: #f5f1fc;
+  --footer-links-text: #e7def7;
+  --footer-links-text-hover: #5d00ff;
+  --footer-logo: #c3ade9;
+  --footer-logo-hover: #5813ce;
 }
 
 @media (prefers-color-scheme: dark) {
