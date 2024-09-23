@@ -1,12 +1,19 @@
-import React from 'react'
-import {myDetails} from "../../../assets/myDetails"
+import React from "react";
+import { contactDetails } from "../../../assets/myDetails";
+import ContactDetailsCard from "./ContactDetailsCard";
 
 const ContactDetail = () => {
   return (
-    <div className='def'>
-      
+    <div className="content-center">
+      {contactDetails.map((contactDetail) => {
+        return (
+          <div key={contactDetail.id} className="">
+            <ContactDetailsCard props={contactDetail} />
+          </div>
+        );
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default ContactDetail
+export default ContactDetail;

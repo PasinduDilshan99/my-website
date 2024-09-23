@@ -30,7 +30,7 @@ const FormComponent = () => {
 
   return (
     <div className="bg-[--form-bg] flex flex-col gap-4 py-10 px-4 rounded-xl">
-      <div className="formTitle text-5xl font-bold">Lets Work Together</div>
+      <div className="formTitle text-5xl font-bold leading-tight">Lets Work Together</div>
       <div className="text-lg">
         I design and code beautifully simple things, and I love what I do. Just
         simple like that!

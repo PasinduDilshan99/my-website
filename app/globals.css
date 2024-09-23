@@ -131,6 +131,11 @@
   --form-title-end: #ddccf7;
   --form-input-active-border: #4504cf;
 
+  /* contact details  */
+  --contact-details-icon-start: #2a1454;
+  --contact-details-icon-end: #8750f7;
+  --contact-details-text-hover: #5013ca;
+
 }
 
 @media (prefers-color-scheme: dark) {
