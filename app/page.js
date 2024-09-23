@@ -5,6 +5,7 @@ import MyQualityServices from "./myQualityServices/components/MyQualityServices"
 import MyRecentWorks from "./myRecentWorks/components/MyRecentWorks";
 import MySkills from "./mySkills/components/MySkills";
 import Qualification from "./qulification/components/Qualification";
+import RecentBlogs from "./recentBlogs/components/RecentBlogs";
 
 export default function Home() {
   return (
@@ -30,6 +31,9 @@ export default function Home() {
         </div>
         <div className="">
           <ClientStories />
+        </div>
+        <div>
+          <RecentBlogs />
         </div>
       </div>
     </main>
