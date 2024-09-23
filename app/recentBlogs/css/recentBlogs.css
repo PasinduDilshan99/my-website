@@ -1,0 +1,52 @@
+.recentBlogBg {
+  background-image: linear-gradient(
+    to top,
+    var(--recent-blogs-bg-start),
+    var(--recent-blogs-bg-end)
+  );
+}
+
+.recentBlogCard {
+  background-color: var(--recent-blogs-card-start);
+  background-image: linear-gradient(
+    to right,
+    var(--recent-blogs-card-start),
+    var(--recent-blogs-card-end)
+  );
+}
+
+
+.recentBlogCard:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--recent-blogs-card-start-hover),
+    var(--recent-blogs-card-end-hover)
+  );
+}
+
+.recentBlogTagCard {
+  background-image: linear-gradient(
+    to right,
+    var(--recent-blogs-card-tag-start),
+    var(--recent-blogs-card-tag-end)
+  );
+  transition: all 3s ease-in-out;
+}
+
+.recentBlogTagCard:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--recent-blogs-card-tag-end),
+    var(--recent-blogs-card-tag-start)
+  );
+}
+
+.recentBlogTitle {
+  background-image: linear-gradient(
+    to right,
+    var(--recent-blogs-title-start),
+    var(--recent-blogs-title-end)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

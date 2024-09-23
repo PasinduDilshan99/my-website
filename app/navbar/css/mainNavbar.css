@@ -1,0 +1,29 @@
+.linkIconsBorder {
+  position: relative;
+  overflow: hidden;
+}
+
+.linkIconsBorder::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 4px;
+  width: 0%;
+  background: linear-gradient(to right, var(--hover-button), var(--foreground));
+  transition: width 0.3s ease;
+}
+
+.linkIconsBorder:hover::after {
+  width: 100%;
+}
+
+.hireMeButton {
+  background: linear-gradient(to right,var(--background), var(--foreground));
+  transition: background 10s ease;
+}
+
+.hireMeButton:hover {
+    background: linear-gradient(to right,var(--foreground), var(--background));
+  }
+  

@@ -1,0 +1,14 @@
+.filterButton {
+  background-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    var(--recent-works-filter-button-hover-start),
+    var(--recent-works-filter-button-hover-end)
+  );
+  transition: background-color 0.3s ease, background-image 0.3s ease;
+}
+
+.filterButton.selected {
+  background-color: var(--recent-works-filter-button-selected);
+  color: white; 
+}

@@ -1,0 +1,7 @@
+.contactDetailsCard {
+  background-image: linear-gradient(
+    to top,
+    var(--contact-details-icon-start),
+    var(--contact-details-icon-end)
+  );
+}

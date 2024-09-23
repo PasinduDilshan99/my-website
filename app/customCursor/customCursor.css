@@ -1,0 +1,48 @@
+.cursor-dot {
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    animation: cursor-dot-animation 1s infinite alternate;
+  }
+  
+  .cursor-outline {
+    width: 30px;
+    height: 30px;
+    border: 3px solid hsl(258, 100%, 88%);
+    animation: cursor-outline-animation 1s infinite alternate;
+  }
+  
+  .cursor-dot,
+  .cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999;
+    pointer-events: none;
+  }
+  
+  @keyframes cursor-outline-animation {
+    from {
+      width: 30px;
+      height: 30px;
+      border: 3px solid hsl(263, 42%, 67%);
+    }
+    to {
+      width: 40px;
+      height: 40px;
+      border: 3px solid hsl(251, 100%, 87%);
+    }
+  }
+  
+  @keyframes cursor-dot-animation {
+    from {
+      width: 5px;
+      height: 5px;
+    }
+    to {
+      width: 10px;
+      height: 10px;
+    }
+  }
