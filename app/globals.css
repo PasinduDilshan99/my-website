@@ -136,6 +136,30 @@
   --contact-details-icon-end: #8750f7;
   --contact-details-text-hover: #5013ca;
 
+  /* footer  */
+  --footer-bottom-copyright-text: #8750f7;
+  --footer-bottom-copyright-text-title: #641ff0;
+  --footer-horizontal-line: #b293f0;
+  --footer-social-media-icon-color: #8560d1;
+  --footer-social-media-icon-color-hover: #260664;
+  --footer-social-media-icon-border-color: #8560d1;
+  --footer-contact-information-icon:#5a1cd6;
+  --footer-top-horizontal-line: #b293f0;
+  --footer-input-bg: #fcfbff;
+  --footer-input-text: #3c00f1;
+  --footer-input-border: #b293f0;
+  --footer-input-active-border: #b293f0;
+  --footer-btn-bg-start: #4408bb;
+  --footer-btn-bg-end: #cebaf7;
+  --footer-btn-text: #1b0e35;
+  --footer-btn-bg-start-hover: #cebaf7;
+  --footer-btn-bg-end-hover: #4408bb;
+  --footer-btn-text-hover: #eadfff;
+  --footer-links-title:#f5f1fc;
+  --footer-links-text:#e7def7;
+  --footer-links-text-hover:#5d00ff;
+  --footer-logo:#c3ade9;
+  --footer-logo-hover:#5813ce;
 }
 
 @media (prefers-color-scheme: dark) {

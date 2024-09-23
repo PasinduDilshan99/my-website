@@ -1,0 +1,18 @@
+.footerBtn {
+  background-image: linear-gradient(
+    to right,
+    var(--footer-btn-bg-start),
+    var(--footer-btn-bg-end)
+  );
+  color: var(--footer-btn-text);
+  transition: background-image 3s ease-in, color 3s ease-out;
+}
+
+.footerBtn:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--footer-btn-bg-start-hover),
+    var(--footer-btn-bg-end-hover)
+  );
+  color: var(--footer-btn-text-hover);
+}
