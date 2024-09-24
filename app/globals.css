@@ -5,11 +5,25 @@
 :root {
   --background: #2a1454;
   --foreground: #0f0715;
+
   /* main navbar */
-  --navbar-button-start: #ccb1fa;
-  --navbar-button-end: #ccb1fa;
+  --navbar-button-start: #8750f7;
+  --navbar-button-end: #2a1454;
+  --navbar-button-start-hover: #2a1454;
+  --navbar-button-end-hover: #8750f7;
+  --navbar-button-text: #ddd0f7;
+  --navbar-button-text-hover: #100622;
   --navbar-link-hover-start: #ccb1fa;
   --navbar-link-hover-end: #ccb1fa;
+  --navbar-link-text: #e3daf3;
+  --navbar-link-text-hover: #8b4cf8;
+  --navbar-name: #e5d9f8;
+  --navbar-name-hover: #7c41e9;
+  --navbar-text: #e5d9f8;
+  --navbar-text-hover: #7c41e9;
+  --navbar-logo-bg: #2d0a6e;
+  --navbar-logo-bg-hover: #d9d0eb;
+
   /* scroll navbar */
   --scroll-navbar-button-start: #ffffff;
   --scroll-navbar-button-end: #ccb1fa;
@@ -143,7 +157,7 @@
   --footer-social-media-icon-color: #8560d1;
   --footer-social-media-icon-color-hover: #260664;
   --footer-social-media-icon-border-color: #8560d1;
-  --footer-contact-information-icon:#5a1cd6;
+  --footer-contact-information-icon: #5a1cd6;
   --footer-top-horizontal-line: #b293f0;
   --footer-input-bg: #fcfbff;
   --footer-input-text: #3c00f1;
@@ -155,11 +169,51 @@
   --footer-btn-bg-start-hover: #cebaf7;
   --footer-btn-bg-end-hover: #4408bb;
   --footer-btn-text-hover: #eadfff;
-  --footer-links-title:#f5f1fc;
-  --footer-links-text:#e7def7;
-  --footer-links-text-hover:#5d00ff;
-  --footer-logo:#c3ade9;
-  --footer-logo-hover:#5813ce;
+  --footer-links-title: #f5f1fc;
+  --footer-links-text: #e7def7;
+  --footer-links-text-hover: #5d00ff;
+  --footer-logo: #c3ade9;
+  --footer-logo-hover: #5813ce;
+
+  /* loading - dot line animation  */
+  --loading-dot-line-bg: #f5f1fc;
+  --loading-dot-line-1st: #6a0dad;
+  --loading-dot-line-2nd: #7f00ff;
+  --loading-dot-line-3rd: #9b30ff;
+  --loading-dot-line-4th: #b041ff;
+  --loading-dot-line-5th: #c44bff;
+  --loading-dot-line-6th: #d955ff;
+  --loading-dot-line-7th: #e969ff;
+  --loading-dot-line-1st-shadow: #6a0dad80;
+  --loading-dot-line-2nd-shadow: #7f00ff80;
+  --loading-dot-line-3rd-shadow: #9b30ff80;
+  --loading-dot-line-4th-shadow: #b041ff80;
+  --loading-dot-line-5th-shadow: #c44bff80;
+  --loading-dot-line-6th-shadow: #d955ff80;
+  --loading-dot-line-7th-shadow: #e969ff80;
+
+  /* loading - loading word animation  */
+  --loading-word: #cbb9dd;
+  --loading-word-inside: #5900b3;
+  --loading-word-animate: #aa54e4;
+  --loading-word-shadow-10px: #6a0dad;
+  --loading-word-shadow-20px: #7f00ff;
+  --loading-word-shadow-40px: #9b30ff;
+  --loading-word-shadow-80px: #b041ff;
+  --loading-word-shadow-120px: #c44bff;
+  --loading-word-shadow-200px: #d955ff;
+  --loading-word-shadow-300px: #e969ff;
+  --loading-word-shadow-400px: #e969ff;
+
+  /* loading - initial loading */
+  --loading-bg-start: #0d0611;
+  --loading-bg-end: #300a49;
+
+  /* scroll bar color  */
+  --scroll-bar-track: #5617bd;
+  --scroll-bar-thumb: #9e5fca;
+  --scroll-bar-track-active: #28075c;
+  --scroll-bar-thumb-active: #5e2b83;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -244,3 +298,29 @@ body {
 .ghi {
   border: 2px solid red;
 }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-bar-thumb) var(--scroll-bar-track);
+}
+
+*:active {
+  scrollbar-color: var(--scroll-bar-thumb-active) var(--scroll-bar-track-active);
+}
+
+/* ::-webkit-scrollbar {
+  width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6a0dad; 
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7f00ff; 
+} */

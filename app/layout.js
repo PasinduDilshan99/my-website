@@ -1,19 +1,18 @@
-'use client'
+"use client";
 import { useState, useEffect } from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Navbar from "./navbar/components/NavBar";
 import CustomCursor from "./customCursor/CustomCursor";
 import Loading from "./loading/components/Loading";
-import { config } from '@fortawesome/fontawesome-svg-core';
-import '@fortawesome/fontawesome-svg-core/styles.css'; // Import Font Awesome CSS
-config.autoAddCss = false; 
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
 
-
-// Import metadata from the new metadata.js file
 import { metadata } from "./metadata";
+import InitialLoading from "./loading/components/InitialLoading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,7 +37,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div>
           {isLoading ? (
-            <Loading />
+            <InitialLoading />
           ) : (
             <>
               <div className="absolute z-20">

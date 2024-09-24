@@ -1,9 +1,10 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import Image from "next/image";
 import { myDetails } from "../../../assets/myDetails";
 import { navBarLinks } from "../../../assets/navBarDetails";
 import "../css/mainNavbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faD } from "@fortawesome/free-solid-svg-icons";
 
 const MainNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,19 +30,13 @@ const MainNavbar = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 backdrop-blur-md z-50 pt-4 lg:flex lg:justify-center text-white w-full">
+    <div className="fixed top-0 left-0 right-0 backdrop-blur-md z-50 pt-4 lg:flex lg:justify-center  w-full">
       <div className="flex justify-between px-4 items-center w-full ">
         <div className="md:grid md:grid-rows-[auto] w-full">
           <div className="flex justify-between items-center md:mx-[5%] mx-[2%]">
-            <div className="flex rounded-xl  md:rounded-lg transition-transform duration-300 hover:scale-105">
-              <div className="justify-center hidden md:flex content-center">
-                <Image
-                  src="/logo.webp"
-                  width={35}
-                  height={35}
-                  alt="logo"
-                  className="m-4"
-                />
+            <div className="flex rounded-xl gap-2 items-center md:rounded-lg transition-transform duration-300 hover:scale-105 text-[--navbar-name] hover:text-[--navbar-name-hover]">
+              <div className="hidden md:flex bg-[--navbar-logo-bg] hover:bg-[--navbar-logo-bg-hover] p-2 px-4 rounded-full ">
+                <FontAwesomeIcon icon={faD} className="text-4xl" />
               </div>
               <div
                 className="justify-center content-center lg:text-xl text-lg hover:font-semibold duration-100"
@@ -63,7 +58,7 @@ const MainNavbar = () => {
                   <div key={link.id}>
                     <a
                       href={link.link}
-                      className=" text-lg hover:text-[--hover-button] transition-all hover:text-xl hover:scale-125 duration-300 linkIconsBorder  "
+                      className="text-lg text-[--navbar-link-text] hover:text-[--navbar-link-text-hover]  transition-all hover:text-xl hover:scale-125 duration-300 linkIconsBorder  "
                     >
                       {link.text}
                     </a>
@@ -71,8 +66,8 @@ const MainNavbar = () => {
                 ))}
               </div>
             </div>
-            <div className="hidden lg:flex">
-              <div className="py-3 px-8 rounded-3xl hover:cursor-pointer hireMeButton transition-all duration-300 ">
+            <div className="hidden lg:flex items-center justify-center">
+              <div className="main-navbar-btn py-3 px-8 rounded-3xl hover:cursor-pointer]">
                 Hire Me!
               </div>
             </div>
