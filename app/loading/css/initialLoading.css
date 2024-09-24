@@ -1,0 +1,7 @@
+.initialLoadingBg {
+  background-image: linear-gradient(
+    to right,
+    var(--loading-bg-start),
+    var(--loading-bg-end)
+  );
+}

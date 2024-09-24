@@ -30,7 +30,7 @@ const MainNavbar = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 backdrop-blur-md z-50 pt-4 lg:flex lg:justify-center text-white w-full">
+    <div className="fixed top-0 left-0 right-0 backdrop-blur-md z-50 pt-4 lg:flex lg:justify-center  w-full">
       <div className="flex justify-between px-4 items-center w-full ">
         <div className="md:grid md:grid-rows-[auto] w-full">
           <div className="flex justify-between items-center md:mx-[5%] mx-[2%]">
@@ -67,7 +67,7 @@ const MainNavbar = () => {
               </div>
             </div>
             <div className="hidden lg:flex items-center justify-center">
-              <div className="hireMeButton py-3 px-8 rounded-3xl hover:cursor-pointer transition-all duration-300">
+              <div className="main-navbar-btn py-3 px-8 rounded-3xl hover:cursor-pointer]">
                 Hire Me!
               </div>
             </div>

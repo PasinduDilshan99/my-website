@@ -12,6 +12,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
 import { metadata } from "./metadata";
+import InitialLoading from "./loading/components/InitialLoading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,7 +37,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div>
           {isLoading ? (
-            <Loading />
+            <InitialLoading />
           ) : (
             <>
               <div className="absolute z-20">

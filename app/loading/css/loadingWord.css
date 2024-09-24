@@ -1,0 +1,70 @@
+.loading-word-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-word-h2 {
+  color: var(--loading-word);
+  font-size: 6em;
+  display: flex;
+}
+
+.loading-word-span {
+  position: relative;
+  animation: loadingWordAnimate 4s linear infinite;
+}
+
+@keyframes loadingWordAnimate {
+  0%,
+  100% {
+    color: var(--loading-word-animate);
+    filter: blur(2px);
+ text-shadow: 
+    0 0 10px var(--loading-word-shadow-10px),
+    0 0 20px var(--loading-word-shadow-20px),
+    0 0 40px var(--loading-word-shadow-40px),
+    0 0 80px var(--loading-word-shadow-80px),
+    0 0 120px var(--loading-word-shadow-120px),
+    0 0 200px var(--loading-word-shadow-200px),
+    0 0 300px var(--loading-word-shadow-300px),
+    0 0 400px var(--loading-word-shadow-400px);
+  }
+  25%,
+  75% {
+    color: var( --loading-word-inside);
+    filter: blur(0px);
+    text-shadow: none;
+  }
+}
+
+.loading-word-span:nth-child(1) {
+  animation-delay: 0s;
+}
+.loading-word-span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.loading-word-span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.loading-word-span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.loading-word-span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.loading-word-span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.loading-word-span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.loading-word-span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.loading-word-span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.loading-word-span:nth-child(10) {
+  animation-delay: 0.9s;
+}

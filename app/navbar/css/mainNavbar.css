@@ -18,15 +18,18 @@
   width: 100%;
 }
 
-.hireMeButton {
+.main-navbar-btn {
+  color: var( --navbar-button-text);
   background-image: linear-gradient(
     to right,
     var(--navbar-button-start),
     var(--navbar-button-end)
   );
+  transition: all 0.8s linear;
 }
 
-.hireMeButton:hover {
+.main-navbar-btn:hover {
+  color: var( --navbar-button-text-hover);
   background-image: linear-gradient(
     to right,
     var(--navbar-button-start-hover),
