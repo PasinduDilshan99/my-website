@@ -30,16 +30,21 @@ const MainNavbar = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 backdrop-blur-md z-50 pt-4 lg:flex lg:justify-center  w-full">
+    <div
+      className={`fixed top-0 left-0 right-0  z-50 pt-4 w-full ${
+        isMenuOpen && "fixed-purple-bg"
+      }`}
+    >
       <div className="flex justify-between px-4 items-center w-full ">
-        <div className="md:grid md:grid-rows-[auto] w-full">
-          <div className="flex justify-between items-center md:mx-[5%] mx-[2%]">
-            <div className="flex rounded-xl gap-2 items-center md:rounded-lg transition-transform duration-300 hover:scale-105 text-[--navbar-name] hover:text-[--navbar-name-hover]">
-              <div className="hidden md:flex bg-[--navbar-logo-bg] hover:bg-[--navbar-logo-bg-hover] p-2 px-4 rounded-full ">
-                <FontAwesomeIcon icon={faD} className="text-4xl" />
+        <div className="md:grid md:grid-rows-[auto] w-full text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+          <div className="flex justify-between items-center xl:px-[3%] xl:p-[2%] md:mx-[5%] mx-[2%]">
+            <div className="flex gap-2 items-center">
+              <div className="hidden md:flex bg-[--navbar-logo-bg] hover:bg-[--navbar-logo-bg-hover] text-[--navbar-logo-text] hover:text-[--navbar-logo-text-hover] p-2 px-3 rounded-full transition-all duration-500 hover:scale-110">
+                <FontAwesomeIcon icon={faD} className="" />
               </div>
+
               <div
-                className="justify-center content-center lg:text-xl text-lg hover:font-semibold duration-100"
+                className=" hover:text-[--navbar-email-hover] text-[--navbar-email] md:text-xl hover:font-semibold transition-all duration-500"
                 href="/"
               >
                 <a
@@ -52,13 +57,13 @@ const MainNavbar = () => {
               </div>
             </div>
 
-            <div className="hidden min-w-[50%] lg:flex  ">
-              <div className="w-full flex justify-evenly ">
+            <div className="hidden min-w-[50%] lg:flex">
+              <div className="w-full flex justify-evenly">
                 {links.map((link) => (
                   <div key={link.id}>
                     <a
                       href={link.link}
-                      className="text-lg text-[--navbar-link-text] hover:text-[--navbar-link-text-hover]  transition-all hover:text-xl hover:scale-125 duration-300 linkIconsBorder  "
+                      className="text-[--navbar-link-text] hover:text-[--navbar-link-text-hover] hover:font-black transition-all hover:scale-125 duration-300 linkIconsBorder "
                     >
                       {link.text}
                     </a>
@@ -66,6 +71,7 @@ const MainNavbar = () => {
                 ))}
               </div>
             </div>
+
             <div className="hidden lg:flex items-center justify-center">
               <div className="main-navbar-btn py-3 px-8 rounded-3xl hover:cursor-pointer]">
                 Hire Me!
@@ -74,7 +80,7 @@ const MainNavbar = () => {
           </div>
         </div>
 
-        <div className="">
+        <div>
           <button
             className="lg:hidden"
             onClick={toggleMenu}
@@ -82,9 +88,9 @@ const MainNavbar = () => {
             aria-expanded={isMenuOpen}
           >
             <svg
-              className={`w-10 h-12 ${
+              className={`w-10 h-12 md:w-16 md:h-20 ${
                 isMenuOpen ? "hidden" : "block"
-              } hover:text-[--hover-button] transition-all hover:scale-125 duration-300`}
+              } hover:text-[--navbar-responsive-icon-show-hover] text-[--navbar-responsive-icon-show] transition-all hover:scale-125 duration-300`}
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -104,9 +110,9 @@ const MainNavbar = () => {
             aria-expanded={isMenuOpen}
           >
             <svg
-              className={`w-10 h-12 ${
+              className={`w-10 h-12 md:w-16 md:h-20 ${
                 isMenuOpen ? "block" : "hidden"
-              } hover:text-red-600 transition-all hover:scale-125 duration-300`}
+              } text-[--navbar-responsive-icon-hide] hover:text-[--navbar-responsive-icon-hide-hover] transition-all hover:scale-125 duration-300`}
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -133,11 +139,11 @@ const MainNavbar = () => {
             <div key={link.id}>
               <a
                 href={link.link}
-                className="text-white text-lg pl-6 hover:text-[--hover-button] transition-all hover:text-xl hover:scale-125 duration-300"
+                className="text-xl pl-6 font-semibold hover:text-[--navbar-responsive-menu-hover] text-[--navbar-responsive-menu] transition-all hover:text-2xl hover:scale-125 duration-300"
               >
                 {link.text}
               </a>
-              <hr className="w-full border-gray-200 border-t-1 my-2" />
+              <hr className="w-full border-[--navbar-responsive-menu-border] border-t-1 my-2" />
             </div>
           ))}
         </div>

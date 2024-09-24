@@ -6,6 +6,7 @@
   --background: #2a1454;
   --foreground: #0f0715;
 
+
   /* main navbar */
   --navbar-button-start: #8750f7;
   --navbar-button-end: #2a1454;
@@ -17,12 +18,22 @@
   --navbar-link-hover-end: #ccb1fa;
   --navbar-link-text: #e3daf3;
   --navbar-link-text-hover: #8b4cf8;
-  --navbar-name: #e5d9f8;
-  --navbar-name-hover: #7c41e9;
+  --navbar-email: #e5d9f8;
+  --navbar-email-hover: #7c41e9;
   --navbar-text: #e5d9f8;
   --navbar-text-hover: #7c41e9;
+  --navbar-logo-text: #e5d9f8;
+  --navbar-logo-text-hover: #7c41e9;
   --navbar-logo-bg: #2d0a6e;
   --navbar-logo-bg-hover: #d9d0eb;
+  --navbar-responsive-icon-show:#4800d8;
+  --navbar-responsive-icon-show-hover:#d9d0eb;
+  --navbar-responsive-icon-hide:#d7c9f1;
+  --navbar-responsive-icon-hide-hover:#5702ff;
+  --navbar-responsive-menu:#ffffff;
+  --navbar-responsive-menu-hover:#1b0052;
+  --navbar-responsive-menu-border:#6435c2;
+
 
   /* scroll navbar */
   --scroll-navbar-button-start: #ffffff;
@@ -307,6 +318,12 @@ body {
 *:active {
   scrollbar-color: var(--scroll-bar-thumb-active) var(--scroll-bar-track-active);
 }
+
+.fixed-purple-bg {
+  background-color: hsla(260, 91%, 64%, 0.05) ; 
+  backdrop-filter: blur(10px); 
+}
+
 
 /* ::-webkit-scrollbar {
   width: 10px; 

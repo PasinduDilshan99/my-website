@@ -29,7 +29,7 @@ const ScrollNavBar = () => {
   const links = navBarLinks;
 
   return (
-    <div className="fixed top-0 left-0 right-0 backdrop-blur-md p-4 z-50 text-white bg-black  shadow-lg shadow-[--shadow-color]">
+    <div className="fixed top-0 left-0 right-0 backdrop-blur-md p-4 z-50 text-white  shadow-lg shadow-[--shadow-color]">
       <div className="px-4 flex justify-between items-center lg:px-10  ">
         <div className="text-lg font-bold  rounded  focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 transition-all duration-300 ">
           <div className="flex rounded-xl  md:rounded-lg transition-transform duration-300 hover:scale-105">
