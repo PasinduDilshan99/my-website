@@ -1,0 +1,42 @@
+.linkIconsBorderScroll {
+  position: relative;
+  overflow: hidden;
+}
+
+.linkIconsBorderScroll::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 4px;
+  width: 0%;
+  background: linear-gradient(
+    to right,
+    var(--scroll-navbar-link-hover-start),
+    var(--scroll-navbar-link-hover-end)
+  );
+  transition: width 0.3s ease;
+}
+
+.linkIconsBorderScroll:hover::after {
+  width: 100%;
+}
+
+.main-navbar-btn-scroll {
+  color: var(--scroll-navbar-button-text);
+  background-image: linear-gradient(
+    to right,
+    var(--scroll-navbar-button-start),
+    var(--scroll-navbar-button-end)
+  );
+  transition: all 0.8s linear;
+}
+
+.main-navbar-btn-scroll:hover {
+  color: var(--scroll-navbar-button-text-hover);
+  background-image: linear-gradient(
+    to right,
+    var(--scroll-navbar-button-start-hover),
+    var(--scroll-navbar-button-end-hover)
+  );
+}

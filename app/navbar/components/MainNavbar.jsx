@@ -35,16 +35,20 @@ const MainNavbar = () => {
         isMenuOpen && "fixed-purple-bg"
       }`}
     >
-      <div className="flex justify-between px-4 items-center w-full ">
+      <div className="flex justify-between px-4 lg:px-0 items-center w-full ">
+
         <div className="md:grid md:grid-rows-[auto] w-full text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-          <div className="flex justify-between items-center xl:px-[3%] xl:p-[2%] md:mx-[5%] mx-[2%]">
+
+          <div className="flex justify-between items-center 2xl:px-[3%] md:mx-[5%] mx-[2%]">
+
             <div className="flex gap-2 items-center">
+
               <div className="hidden md:flex bg-[--navbar-logo-bg] hover:bg-[--navbar-logo-bg-hover] text-[--navbar-logo-text] hover:text-[--navbar-logo-text-hover] p-2 px-3 rounded-full transition-all duration-500 hover:scale-110">
-                <FontAwesomeIcon icon={faD} className="" />
+                <FontAwesomeIcon icon={faD} />
               </div>
 
               <div
-                className=" hover:text-[--navbar-email-hover] text-[--navbar-email] md:text-xl hover:font-semibold transition-all duration-500"
+                className=" hover:text-[--navbar-email-hover] text-[--navbar-email] md:text-xl xl:text-2xl 2xl:text-3xl hover:font-semibold transition-all duration-500"
                 href="/"
               >
                 <a
@@ -58,7 +62,7 @@ const MainNavbar = () => {
             </div>
 
             <div className="hidden min-w-[50%] lg:flex">
-              <div className="w-full flex justify-evenly">
+              <div className="w-full flex gap-6 justify-evenly">
                 {links.map((link) => (
                   <div key={link.id}>
                     <a
