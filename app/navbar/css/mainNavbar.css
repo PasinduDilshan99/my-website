@@ -10,7 +10,7 @@
   left: 0;
   height: 4px;
   width: 0%;
-  background: linear-gradient(to right, var(--hover-button), var(--foreground));
+  background: linear-gradient(to right, var(--navbar-link-hover-start), var(--navbar-link-hover-end));
   transition: width 0.3s ease;
 }
 
