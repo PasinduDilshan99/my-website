@@ -37,7 +37,7 @@ const MainNavbar = () => {
     >
       <div className="flex justify-between px-4 lg:px-0 items-center w-full ">
 
-        <div className="md:grid md:grid-rows-[auto] w-full text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+        <div className="md:grid md:grid-rows-[auto] w-full text-lg xl:text-xl 2xl:text-2xl">
 
           <div className="flex justify-between items-center 2xl:px-[3%] md:mx-[5%] mx-[2%]">
 

@@ -65,6 +65,8 @@
   /* introduction */
   --introduction-title-start: #8750f7;
   --introduction-title-end: #fff;
+  --introduction-name: #cbb7f3;
+  --introduction-description: #e7e2f1;
 
   /* social media icons colors */
   --social-media-icon-color: #8560d1;
@@ -73,8 +75,15 @@
 
   /* download cv button */
   --download-cv-icon-color: #8560d1;
+  --download-cv-icon-before-color: #8560d1;
+  --download-cv-icon-before-color-hover: #8560d1;
   --download-cv-icon-color-hover: #260664;
   --download-cv-icon-border-color: #8560d1;
+  --download-cv-icon-border-color-hover: #8560d1;
+
+  /* short description  */
+  --short-description-text: #8560d1;
+  --short-description-number: #8560d1;
 
   /* top up text */
   --top-up-text-stroke-start: #ba95f7;

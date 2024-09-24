@@ -20,7 +20,7 @@
 }
 
 .socialMediaIconBorder:hover {
-    color: white; 
+    color: var(--social-media-icon-border-color);
     transform: scale(1.25);
 }
 
