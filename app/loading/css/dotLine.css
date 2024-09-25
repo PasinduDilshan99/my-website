@@ -1,4 +1,4 @@
-ul {
+.dotLineUL {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -7,7 +7,7 @@ ul {
   display: flex;
 }
 
-ul li {
+.an-dot {
   list-style: none;
   width: 40px;
   height: 40px;
@@ -27,43 +27,43 @@ ul li {
   }
 }
 
-ul li:nth-child(1) {
+.dotLine-1 {
   animation-delay: -1.4s;
   background: var(--loading-dot-line-1st);
   box-shadow: 00 0 50px var(--loading-dot-line-1st-shadow);
 }
 
-ul li:nth-child(2) {
+.dotLine-2 {
   animation-delay: -1.2s;
   background: var(--loading-dot-line-2nd);
   box-shadow: 00 0 50px var(--loading-dot-line-2nd-shadow);
 }
 
-ul li:nth-child(3) {
+.dotLine-3 {
   animation-delay: -1s;
   background: var(--loading-dot-line-3rd);
   box-shadow: 00 0 50px var(--loading-dot-line-3rd-shadow);
 }
 
-ul li:nth-child(4) {
+.dotLine-4 {
   animation-delay: -0.8s;
   background: var(--loading-dot-line-4th);
   box-shadow: 00 0 50px var(--loading-dot-line-4th-shadow);
 }
 
-ul li:nth-child(5) {
+.dotLine-5 {
   animation-delay: -0.6s;
   background: var(--loading-dot-line-5th);
   box-shadow: 00 0 50px var(--loading-dot-line-5th-shadow);
 }
 
-ul li:nth-child(6) {
+.dotLine-6 {
   animation-delay: -0.4s;
   background: var(--loading-dot-line-6th);
   box-shadow: 00 0 50px var(--loading-dot-line-6th-shadow);
 }
 
-ul li:nth-child(7) {
+.dotLine-7 {
   animation-delay: -0.2s;
   background: var(--loading-dot-line-7th);
   box-shadow: 00 0 50px var(--loading-dot-line-7th-shadow);
