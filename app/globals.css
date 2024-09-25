@@ -127,6 +127,10 @@
   --recent-works-card-hover-shadow: #744ac7;
   --recent-works-card-label-background: #59467c;
   --recent-works-card-label-background-hover: #3d2270;
+  --recent-works-card-label-title: #dfd4f3;
+  --recent-works-card-label-title-hover: #e6e6e6;
+  --recent-works-card-label-text: #f8f8fa;
+  --recent-works-card-label-text-hover: #ffffff;
   --recent-works-card-border: #f1f0f3;
   --recent-works-card-border-hover: #c4aaf3;
   --recent-works-card-label-border: #321272;
@@ -137,10 +141,16 @@
   --title-component-start: #6a4ca1;
   --title-component-end: #1c0c3a;
 
+  /* qualification  */
+  --qualification-bg:#010002;
+  --qualification-text:#d1a9fa;
+
   /* qualification item component */
   --card-component-bg-start: #0f0715;
   --card-component-bg-end: #080313;
   --card-component-duration: #8750f7;
+  --card-component-shadow: #fbf5ff;
+  --card-component-shadow-hover: #cb86ff;
   --card-component-bg-start-hover: #471f66;
   --card-component-bg-end-hover: #2c0a75;
   --card-component-duration-hover: #ffffff;

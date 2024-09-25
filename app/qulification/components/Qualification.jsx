@@ -4,8 +4,8 @@ import Education from "./Education";
 
 const Qualification = () => {
   return (
-    <div className="flex bg-black text-white p-10 justify-evenly">
-      <Experience />
+    <div className="flex flex-col lg:flex-row bg-[--qualification-bg] text-[--qualification-text] p-10 pb-20 justify-evenly">
+      <Experience /> 
       <Education />
     </div>
   );

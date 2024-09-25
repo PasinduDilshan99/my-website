@@ -56,7 +56,7 @@ const RecentProjectComponent = ({ props }) => {
   }, []);
   return (
     <div
-      className={`relative overflow-hidden border-2 border-[--recent-works-card-label-background] hover:border-[--recent-works-card-label-background-hover] background-black-shadow md:w-[400px] md:h-[390px] md:hover:w-[420px] md:hover:h-[410px] w-[300px] h-[290px] hover:w-[320px] hover:h-[300px] transition-all duration-300 hover:shadow-xl hover:shadow-[--recent-works-card-hover-shadow] ${
+      className={`relative overflow-hidden border-2 border-[--recent-works-card-label-background] hover:border-[--recent-works-card-label-background-hover] background-black-shadow md:w-[400px] md:h-[390px] md:hover:w-[410px] md:hover:h-[400px] w-[300px] h-[290px] hover:w-[310px] hover:h-[300px] transition-all duration-300 hover:shadow-xl hover:shadow-[--recent-works-card-hover-shadow] ${
         isView.image ? "showItem popUpText" : "hideItem"
       }`}
       style={{
@@ -69,7 +69,7 @@ const RecentProjectComponent = ({ props }) => {
     >
       <div className="flex z-10 justify-evenly  bg-[--recent-works-card-label-background]  hover:bg-gradient-to-t hover:from-[--recent-works-card-label-background-hover] hover:to-transparent absolute bottom-10 w-full transition-colors duration-500 p-2">
         <div>
-          <div className="text-[#fff] flex text-lg">
+          <div className="text-[--recent-works-card-label-title] hover:text-[--recent-works-card-label-title-hover] flex text-lg">
             <div
               className={`text-lg lg:text-xl xl:text-2xl 2xl:text-3xl ${
                 isView.iconText
@@ -83,7 +83,7 @@ const RecentProjectComponent = ({ props }) => {
             </div>
           </div>
           <div
-            className={`text-sm md:text-lmd lg:text-lg xl:text-xl  ${
+            className={`text-sm md:text-lmd lg:text-lg xl:text-xl text-[--recent-works-card-label-text] hover:text-[--recent-works-card-label-text-hover] ${
               isView.text ? "showItem textComeFromLeftToRight" : "hideItem"
             }`}
             ref={refs.text}
