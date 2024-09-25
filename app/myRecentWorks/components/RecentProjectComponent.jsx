@@ -3,7 +3,6 @@ import React, { useEffect, useRef, useState } from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import HorizontalRuleIcon from "@mui/icons-material/HorizontalRule";
 import "../css/myRecentWorks.css";
-import { pic } from "../../../assets/images/project-02.jpg";
 
 const RecentProjectComponent = ({ props }) => {
   const [isView, setIsView] = useState({
@@ -57,7 +56,7 @@ const RecentProjectComponent = ({ props }) => {
   }, []);
   return (
     <div
-      className={`relative overflow-hidden def background-black-shadow md:w-[400px] md:h-[390px] md:hover:w-[420px] md:hover:h-[410px] w-[350px] h-[340px] hover:w-[370px] hover:h-[360px] transition-all duration-300 hover:shadow-xl hover:shadow-[--recent-works-card-hover-shadow] ${
+      className={`relative overflow-hidden border-2 border-[--recent-works-card-label-background] hover:border-[--recent-works-card-label-background-hover] background-black-shadow md:w-[400px] md:h-[390px] md:hover:w-[420px] md:hover:h-[410px] w-[300px] h-[290px] hover:w-[320px] hover:h-[300px] transition-all duration-300 hover:shadow-xl hover:shadow-[--recent-works-card-hover-shadow] ${
         isView.image ? "showItem popUpText" : "hideItem"
       }`}
       style={{
@@ -72,16 +71,7 @@ const RecentProjectComponent = ({ props }) => {
         <div>
           <div className="text-[#fff] flex text-lg">
             <div
-              className={`${
-                isView.icon ? "showItem textComeFromLeftToRight" : "hideItem"
-              }`}
-              ref={refs.icon}
-              data-id="icon"
-            >
-              <HorizontalRuleIcon />
-            </div>
-            <div
-              className={`${
+              className={`text-lg lg:text-xl xl:text-2xl 2xl:text-3xl ${
                 isView.iconText
                   ? "showItem textComeFromRightToLeft"
                   : "hideItem"
@@ -93,16 +83,7 @@ const RecentProjectComponent = ({ props }) => {
             </div>
           </div>
           <div
-            className={`font-bold text-xl ${
-              isView.title ? "showItem textComeFromLeftToRight" : "hideItem"
-            }`}
-            ref={refs.title}
-            data-id="title"
-          >
-            {props.subTitle}
-          </div>
-          <div
-            className={`${
+            className={`text-sm md:text-lmd lg:text-lg xl:text-xl  ${
               isView.text ? "showItem textComeFromLeftToRight" : "hideItem"
             }`}
             ref={refs.text}
@@ -113,7 +94,7 @@ const RecentProjectComponent = ({ props }) => {
         </div>
         <div className=" flex items-center">
           <div
-            className={`bg-[--recent-works-card-label-button] cursor-pointer rounded-full w-12 h-12 flex justify-center items-center border-[--recent-works-card-label-border] border-2 transition-all duration-300 hover:w-14 hover:h-14 ${
+            className={`bg-[--recent-works-card-label-button] cursor-pointer rounded-full md:w-12 md:h-12 w-10 h-10 flex justify-center items-center border-[--recent-works-card-label-border] border-2 transition-all duration-300 hover:w-14 hover:h-14 ${
               isView.btn ? "showItem textComeFromRightToLeft" : "hideItem"
             }`}
             ref={refs.btn}

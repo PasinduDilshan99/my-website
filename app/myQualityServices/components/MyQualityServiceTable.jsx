@@ -14,7 +14,7 @@ const MyQualityServiceTable = () => {
         return (
           <div
             key={myQualityService.id}
-            className="flex flex-col mb-2 rounded-xl hover:rounded-3xl lg:flex-row w-full items-center p-3 servicesTable gap-4 lg:gap-0"
+            className="flex flex-col mb-2 rounded-xl hover:rounded-3xl hover:scale-[1.02] lg:flex-row w-full items-center p-3 servicesTable gap-4 lg:gap-0"
           >
             <div className="lg:w-[35%] flex gap-4 lg:gap-0">
               <div className="lg:w-[15%] font-bold text-xl  md:text-2xl lg:text-3xl xl:text-4xl tableNumber">

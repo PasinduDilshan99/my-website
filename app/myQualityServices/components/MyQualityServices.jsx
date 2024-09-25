@@ -11,7 +11,7 @@ const MyQualityServices = () => {
           <div className="serviceGradient text-3xl  md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center font-bold">
             {qualityService.title}
           </div>
-          <div className="text-center text-md  md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl max-w-[75%]">
+          <div className="text-center text-md  md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl max-w-[85%]">
             {qualityService.text}
           </div>
         </div>

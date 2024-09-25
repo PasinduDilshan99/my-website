@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
@@ -51,7 +51,7 @@ const MySkills = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2000,
     pauseOnHover: true,
     arrows: false,
     responsive: [
@@ -85,8 +85,9 @@ const MySkills = () => {
         <TitleComponent props={{ title: "My Skills" }} />
       </div>
       <div className="text-[--skills-text] text-xl max-w-[60%] text-center">
-        We put your ideas and thus your wishes in the form of a unique web
-        project that inspires you and your customers.
+        create mode 100644 app/myQualityServices/css/myQualityServiceTable.css
+        create mode 100644 app/myQualityServices/css/myQualityServiceTable.css
+        create mode 100644 app/myQ
       </div>
       <div className="max-w-[80vw]">
         <Slider {...settings}>
