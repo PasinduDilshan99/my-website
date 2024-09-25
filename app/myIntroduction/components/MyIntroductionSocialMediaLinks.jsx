@@ -10,9 +10,9 @@ const MyIntroductionSocialMediaLinks = () => {
           <a
             key={socialMediaLink.id}
             href={socialMediaLink.link}
-            className="abc p-2 mx-2 rounded-full socialMediaIconBorder"
+            className="p-2 mx-2 rounded-full socialMediaIconBorder"
           >
-            <socialMediaLink.icon className="scale-110 hover:scale-125 transition-transform duration-300 ease"/>
+            <socialMediaLink.icon className="lg:scale-110 hover:scale-125 transition-transform duration-300 ease"/>
           </a>
         );
       })}

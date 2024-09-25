@@ -1,31 +1,8 @@
-.servicesTable {
-    background: linear-gradient(
-        to right,
-        var(--service-table-start),
-        var(--service-table-end)
-    );
-    background-size: 200%;
-    background-position: left;
-    transition: background-position 2s ease;
-}
-
-.servicesTable:hover {
-    background-position: right;
-}
-
-.tableNumber{
-    color: var(--service-table-number);
-}
-
-.tableNumber:hover{
-    color: var(--service-table-number-hover);
-}
-
 .serviceGradient {
     background: linear-gradient(
       to right,
-      var(--service-title-start),
-      var(--service-title-end)
+      var(--quality-services-title-start),
+      var(--quality-services-title-end)
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

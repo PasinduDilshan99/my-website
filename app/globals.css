@@ -95,15 +95,23 @@
   --my-image-border-color-hover: #9459fa;
   --my-image-shadow-color-hover: #9459fa;
 
+  /* quality services  */
+  --quality-services-bg:#080211;
+  --quality-services-text:#d8cbec;
+  --quality-services-title-start:#3a0e92;
+  --quality-services-title-end:#d8cbec;
+  
+
   /* services table */
   --service-table-start: #6a4ca1;
   --service-table-end: #100227;
   --service-table-number: #390c80;
   --service-table-number-hover: #733ec7;
+  --service-table-border: #080211;
+  --service-table-border-hover: #af8be9;
+  --service-table-arrow: #d6bcfc;
+  --service-table-arrow-hover: #5700e2;
 
-  /* service */
-  --service-title-start: #3a0e92;
-  --service-title-end: #fff;
 
   /* recent works */
   --recent-works-start-bg: #522aa3;
