@@ -31,7 +31,7 @@ export default function Home() {
         <div>
           <MySkills />
         </div>
-        <div className="">
+        <div>
           <ClientStories />
         </div>
         <div>

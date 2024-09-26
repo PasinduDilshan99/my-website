@@ -184,7 +184,6 @@
   --client-story-card-company-logo: #dfd4f7;
   --client-story-card-name: #dfd4f7;
 
-
   /* stick dots  */
   --stick-dots-bg: #9474ad;
   --stick-dots-bg-active: #6310a7;
@@ -194,12 +193,16 @@
   --recent-blogs-title-end: #fff;
   --recent-blogs-text: #ddd;
   --recent-blogs-bg-start: #150125;
+
+  /* recent blog card  */
   --recent-blogs-card-start: #2a1454;
   --recent-blogs-card-end: #8750f7;
   --recent-blogs-card-start-hover: #c6c5c9;
   --recent-blogs-card-end-hover: #9065e7;
   --recent-blogs-card-tag-start: #8750f7;
   --recent-blogs-card-tag-end: #2a1454;
+  --recent-blogs-card-tag-start-hover: #2a1454;
+  --recent-blogs-card-tag-end-hover: #8750f7;
   --recent-blogs-card-text: #8750f7;
   --recent-blogs-card-shadow-hover: #8750f7;
 

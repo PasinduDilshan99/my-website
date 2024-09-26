@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import "../css/clientStories.css";
-import { clientDetails } from "../../../assets/clientDetails";
+import { clientDetails,clientStoriesDetails } from "../../../assets/clientDetails";
 import ClientComponent from "./ClientComponent";
 import Slider from "react-slick";
 
@@ -44,10 +44,10 @@ const ClientStories = () => {
     <div className="min-h-[50vh] clientStoriesBubble p-10 pt-20 flex lg:flex-row flex-col lg:justify-between ">
       <div className="flex flex-col gap-5">
         <div className="clientTitle text-3xl  md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold">
-          My Client's Stories
+        {clientStoriesDetails.title}
         </div>
         <div className="text-[--client-stories-text] text-md  md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-          Empowering people in new a digital journey with my super services
+         {clientStoriesDetails.text}
         </div>
       </div>
       <div className="lg:max-w-[40vw] lg:min-w-[50%] mt-5">

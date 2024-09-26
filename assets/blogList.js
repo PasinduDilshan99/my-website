@@ -40,3 +40,8 @@ export const blogList = [
     title: "The Role of Technology ",
   },
 ];
+
+export const blogDetails = {
+  title: "Recent Blogs",
+  text: "We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.",
+};
