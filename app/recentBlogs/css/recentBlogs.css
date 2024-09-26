@@ -15,7 +15,6 @@
   );
 }
 
-
 .recentBlogCard:hover {
   background-image: linear-gradient(
     to right,
@@ -36,8 +35,8 @@
 .recentBlogTagCard:hover {
   background-image: linear-gradient(
     to right,
-    var(--recent-blogs-card-tag-end),
-    var(--recent-blogs-card-tag-start)
+    var(--recent-blogs-card-tag-start-hover),
+    var(--recent-blogs-card-tag-end-hover)
   );
 }
 

@@ -53,3 +53,8 @@ export const clientDetails = [
     position: "Seniore manager - UAT",
   },
 ];
+
+export const clientStoriesDetails = {
+  title: "My Client's Stories",
+  text: "Empowering people in new a digital journey with my super services",
+};

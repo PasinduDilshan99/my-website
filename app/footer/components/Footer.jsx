@@ -4,7 +4,7 @@ import FooterBottom from "./FooterBottom";
 
 const Footer = () => {
   return (
-    <div className="text-white pt-20 pb-10">
+    <div className="text-[--footer-text] pt-20 pb-10">
       <FooterTop />
       <hr className="border-0 h-1 bg-[--footer-horizontal-line] m-2 mb-5" />
       <FooterBottom />

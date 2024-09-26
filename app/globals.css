@@ -142,8 +142,8 @@
   --title-component-end: #1c0c3a;
 
   /* qualification  */
-  --qualification-bg:#010002;
-  --qualification-text:#d1a9fa;
+  --qualification-bg: #010002;
+  --qualification-text: #d1a9fa;
 
   /* qualification item component */
   --card-component-bg-start: #0f0715;
@@ -174,10 +174,15 @@
   --client-stories-bg-end: #1a0f2c;
   --client-stories-title-start: #7b17ce;
   --client-stories-title-end: #e0d7ee;
-  --client-card-bg: #140c1c;
-  --client-card-icon: #7a39bb;
-  --client-text: #ddd;
-  --client-card-shadow-hover: #431c92;
+  --client-stories-text: #e0d7ee;
+
+  /* client story card  */
+  --client-story-card-bg: #140c1c;
+  --client-story-card-icon: #7a39bb;
+  --client-story-text: #ddd;
+  --client-story-card-shadow-hover: #431c92;
+  --client-story-card-company-logo: #dfd4f7;
+  --client-story-card-name: #dfd4f7;
 
   /* stick dots  */
   --stick-dots-bg: #9474ad;
@@ -188,14 +193,22 @@
   --recent-blogs-title-end: #fff;
   --recent-blogs-text: #ddd;
   --recent-blogs-bg-start: #150125;
+
+  /* recent blog card  */
   --recent-blogs-card-start: #2a1454;
   --recent-blogs-card-end: #8750f7;
   --recent-blogs-card-start-hover: #c6c5c9;
   --recent-blogs-card-end-hover: #9065e7;
   --recent-blogs-card-tag-start: #8750f7;
   --recent-blogs-card-tag-end: #2a1454;
+  --recent-blogs-card-tag-start-hover: #2a1454;
+  --recent-blogs-card-tag-end-hover: #8750f7;
   --recent-blogs-card-text: #8750f7;
   --recent-blogs-card-shadow-hover: #8750f7;
+
+  /* form section  */
+  --form-section-bg: #050709;
+  --form-section-text: #ddccf7;
 
   /* form  */
   --form-bg: #2a1454;
@@ -211,8 +224,10 @@
   --contact-details-icon-start: #2a1454;
   --contact-details-icon-end: #8750f7;
   --contact-details-text-hover: #5013ca;
+  --contact-details-text: #daccf5;
 
   /* footer  */
+  --footer-text:#fcfbff;
   --footer-bottom-copyright-text: #8750f7;
   --footer-bottom-copyright-text-title: #641ff0;
   --footer-horizontal-line: #b293f0;
@@ -220,6 +235,7 @@
   --footer-social-media-icon-color-hover: #260664;
   --footer-social-media-icon-border-color: #8560d1;
   --footer-contact-information-icon: #5a1cd6;
+  --footer-contact-information-text: #d6c2ff;
   --footer-top-horizontal-line: #b293f0;
   --footer-input-bg: #fcfbff;
   --footer-input-text: #3c00f1;

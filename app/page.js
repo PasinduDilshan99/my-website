@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="">
       <div className="relative">
-        <div className="hidden lg:flex absolute top-[5%] right-[42%]">
+        <div className="hidden lg:flex absolute top-[2%] right-[42%]">
           <TopUpText />
         </div>
         <div className=" z-10">
@@ -31,7 +31,7 @@ export default function Home() {
         <div>
           <MySkills />
         </div>
-        <div className="">
+        <div>
           <ClientStories />
         </div>
         <div>

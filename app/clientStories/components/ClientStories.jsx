@@ -1,7 +1,7 @@
-'use client'
+"use client";
 import React from "react";
 import "../css/clientStories.css";
-import { clientDetails } from "../../../assets/clientDetails";
+import { clientDetails,clientStoriesDetails } from "../../../assets/clientDetails";
 import ClientComponent from "./ClientComponent";
 import Slider from "react-slick";
 
@@ -12,7 +12,7 @@ const ClientStories = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 7000,
+    autoplaySpeed: 5000,
     pauseOnHover: true,
     arrows: false,
     responsive: [
@@ -41,19 +41,19 @@ const ClientStories = () => {
   };
 
   return (
-    <div className="min-h-[50vh] bg-black clientStoriesBubble p-10 pt-20 flex justify-between">
+    <div className="min-h-[50vh] clientStoriesBubble p-10 pt-20 flex lg:flex-row flex-col lg:justify-between ">
       <div className="flex flex-col gap-5">
-        <div className="clientTitle text-5xl font-bold">
-          My Client's Stories
+        <div className="clientTitle text-3xl  md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold">
+        {clientStoriesDetails.title}
         </div>
-        <div className="text-white text-lg">
-          Empowering people in new a digital journey with my super services
+        <div className="text-[--client-stories-text] text-md  md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+         {clientStoriesDetails.text}
         </div>
       </div>
-      <div className="max-w-[40vw] min-w-[50%]">
+      <div className="lg:max-w-[40vw] lg:min-w-[50%] mt-5">
         <Slider {...settings}>
           {clientDetails.map((clientDetail) => (
-            <div key={clientDetail.id} className="px-4 ">
+            <div key={clientDetail.id} className="px-4">
               <ClientComponent props={clientDetail} />
             </div>
           ))}
