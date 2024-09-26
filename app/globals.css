@@ -206,6 +206,10 @@
   --recent-blogs-card-text: #8750f7;
   --recent-blogs-card-shadow-hover: #8750f7;
 
+  /* form section  */
+  --form-section-bg: #050709;
+  --form-section-text: #ddccf7;
+
   /* form  */
   --form-bg: #2a1454;
   --form-text-bg: #050709;
@@ -220,6 +224,7 @@
   --contact-details-icon-start: #2a1454;
   --contact-details-icon-end: #8750f7;
   --contact-details-text-hover: #5013ca;
+  --contact-details-text: #daccf5;
 
   /* footer  */
   --footer-bottom-copyright-text: #8750f7;

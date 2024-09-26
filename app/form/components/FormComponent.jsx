@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "../css/formComponent.css";
 import { myDetails } from "../../../assets/myDetails";
+import { formDetailsContent } from "../../../assets/formDetails";
 
 const FormComponent = () => {
   const [formValue, setFormValue] = useState({
@@ -29,14 +30,15 @@ const FormComponent = () => {
   ];
 
   return (
-    <div className="bg-[--form-bg] flex flex-col gap-4 py-10 px-4 rounded-xl">
-      <div className="formTitle text-5xl font-bold leading-tight">Lets Work Together</div>
-      <div className="text-lg">
-        I design and code beautifully simple things, and I love what I do. Just
-        simple like that!
+    <div className="bg-[--form-bg] flex flex-col gap-4 py-10 px-4 lg:mx-10 xl:mx-0 rounded-xl text-center lg:text-left ">
+      <div className="formTitle text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight">
+        {formDetailsContent.title}
       </div>
-      <div className="flex flex-col text-lg gap-2 ">
-        <div className="grid grid-cols-2 gap-2 ">
+      <div className="text-lg md:text-xl lg:text-2xl xl:text-3xl">
+        {formDetailsContent.text}
+      </div>
+      <div className="flex flex-col text-lg gap-2 text-md md:text-lg lg:text-xl xl:text-2xl ">
+        <div className="grid lg:grid-cols-2 gap-2 ">
           <input
             type="text"
             name="firstName"
@@ -91,13 +93,13 @@ const FormComponent = () => {
           className="bg-[--form-text-bg] px-4 py-2 rounded-md border-2 border-[--form-text-border] min-h-[200px] w-full"
         />
       </div>
-      <div className="formSubmitButton w-[200px] px-4 py-2 rounded-full font-semibold  text-lg text-center">
+      <div className="formSubmitButton w-[200px] px-4 py-2 rounded-full font-semibold text-sm md:text-md lg:text-lg xl:text-xl text-center self-center">
         <a
           href={`https://mail.google.com/mail/?view=cm&fs=1&to=${myDetails.email}&su=${myDetails.emailSubject}&body=Dear%20${myDetails.firstname},%0D%0A%0D%0AFirst Name: ${formValue.firstName}%0D%0ALast Name: ${formValue.lastName}%0D%0AEmail: ${formValue.email}%0D%0APhone Number: ${formValue.phoneNumber}%0D%0AService: ${formValue.service}%0D%0AMessage: ${formValue.message}%0D%0A%0D%0A${myDetails.emailComplimentaryClose},%0D%0A%0D%0A${myDetails.emailUserName}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Send Message
+          {formDetailsContent.btn}
         </a>
       </div>
     </div>
