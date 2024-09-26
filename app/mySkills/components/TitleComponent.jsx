@@ -3,7 +3,7 @@ import "../css/titleComponent.css";
 
 const TitleComponent = ({ props }) => {
   return (
-    <div className="p-5 text-6xl font-bold gap-4">
+    <div className="text-3xl  md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold">
       <div className="titleComponent">{props.title}</div>
     </div>
   );

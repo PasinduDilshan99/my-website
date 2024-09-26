@@ -2,7 +2,7 @@ import React from "react";
 import { myExperiences } from "../../../assets/myDetails";
 import TitleComponent from "./TitleComponent";
 import WorkspacePremiumOutlinedIcon from "@mui/icons-material/WorkspacePremiumOutlined";
-import ItemComponent from "@/app/myRecentWorks/components/ItemComponent";
+import ItemComponent from "@/app/qulification/components/ItemComponent";
 
 const Experience = () => {
   return (

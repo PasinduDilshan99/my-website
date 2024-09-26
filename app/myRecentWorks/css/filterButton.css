@@ -5,10 +5,11 @@
     var(--recent-works-filter-button-hover-start),
     var(--recent-works-filter-button-hover-end)
   );
+  color: var(--recent-works-filter-button-text);
   transition: background-color 0.3s ease, background-image 0.3s ease;
 }
 
 .filterButton.selected {
   background-color: var(--recent-works-filter-button-selected);
-  color: white; 
+  color: var(--recent-works-filter-button-text-selected);
 }

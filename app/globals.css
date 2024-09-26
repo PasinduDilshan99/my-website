@@ -95,38 +95,62 @@
   --my-image-border-color-hover: #9459fa;
   --my-image-shadow-color-hover: #9459fa;
 
+  /* quality services  */
+  --quality-services-bg: #080211;
+  --quality-services-text: #d8cbec;
+  --quality-services-title-start: #3a0e92;
+  --quality-services-title-end: #d8cbec;
+
   /* services table */
   --service-table-start: #6a4ca1;
   --service-table-end: #100227;
   --service-table-number: #390c80;
   --service-table-number-hover: #733ec7;
-
-  /* service */
-  --service-title-start: #3a0e92;
-  --service-title-end: #fff;
+  --service-table-border: #080211;
+  --service-table-border-hover: #af8be9;
+  --service-table-arrow: #d6bcfc;
+  --service-table-arrow-hover: #5700e2;
 
   /* recent works */
   --recent-works-start-bg: #522aa3;
   --recent-works-end-bg: #0f0715;
+  --recent-works-text: #d9c8e6;
   --recent-works-start: #3a0e92;
   --recent-works-end: #fff;
+  --recent-works-filter-button-hover-start: #baa0ec;
+  --recent-works-filter-button-hover-end: #5824b9;
+  --recent-works-filter-button-text: #e9e0fa;
+  --recent-works-filter-button-text-selected: #5900ff;
+  --recent-works-filter-button-list-bg: #010002;
+
+  /* recent work card  */
   --recent-works-card-hover-shadow: #744ac7;
   --recent-works-card-label-background: #59467c;
   --recent-works-card-label-background-hover: #3d2270;
+  --recent-works-card-label-title: #dfd4f3;
+  --recent-works-card-label-title-hover: #e6e6e6;
+  --recent-works-card-label-text: #f8f8fa;
+  --recent-works-card-label-text-hover: #ffffff;
+  --recent-works-card-border: #f1f0f3;
+  --recent-works-card-border-hover: #c4aaf3;
   --recent-works-card-label-border: #321272;
   --recent-works-card-label-button: #512f94;
   --recent-works-card-label-button-circle: #1c0c3a;
-  --recent-works-filter-button-hover-start: #baa0ec;
-  --recent-works-filter-button-hover-end: #5824b9;
 
   /* title component */
   --title-component-start: #6a4ca1;
   --title-component-end: #1c0c3a;
 
+  /* qualification  */
+  --qualification-bg:#010002;
+  --qualification-text:#d1a9fa;
+
   /* qualification item component */
   --card-component-bg-start: #0f0715;
   --card-component-bg-end: #080313;
   --card-component-duration: #8750f7;
+  --card-component-shadow: #fbf5ff;
+  --card-component-shadow-hover: #cb86ff;
   --card-component-bg-start-hover: #471f66;
   --card-component-bg-end-hover: #2c0a75;
   --card-component-duration-hover: #ffffff;

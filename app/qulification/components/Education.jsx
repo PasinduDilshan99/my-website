@@ -1,6 +1,6 @@
 import React from "react";
 import TitleComponent from "./TitleComponent";
-import ItemComponent from "@/app/myRecentWorks/components/ItemComponent";
+import ItemComponent from "@/app/qulification/components/ItemComponent";
 import { myEducations } from "../../../assets/myDetails";
 import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
 

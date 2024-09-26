@@ -9,13 +9,13 @@ const MyRecentWorks = () => {
   const [selectedType, setSelectType] = useState("all");
 
   return (
-    <div className="recentWorksBg text-white px-10 py-20 ">
+    <div className="recentWorksBg text-[--recent-works-text] px-10 py-20 ">
       <div className="flex flex-col gap-10">
         <div className="flex justify-center items-center flex-col gap-5">
-          <div className="serviceGradient text-6xl text-center font-bold">
+          <div className="serviceGradient text-3xl  md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center font-bold">
             My Recent Works
           </div>
-          <div className="text-center text-lg max-w-[40%]">
+          <div className="text-center text-md  md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl max-w-[85%]">
             We put your ideas and thus your wishes in the form of a unique web
             project that inspires you and your customers.
           </div>

@@ -6,7 +6,7 @@ import "../css/myIntroduction.css";
 
 const MyIntroduction = () => {
   return (
-    <div className="3xl:mx-[20%] 2xl:mx-[15%] xl:mx-[10%] lg:mx-[7%] mx-[5%] flex flex-col">
+    <div className="3xl:mx-[20%] 2xl:mx-[15%] xl:mx-[10%] lg:mx-[7%] mx-[5%] flex flex-col my-10 lg:my-1 xl:my-20">
       <div className="myIntroductionBubble">
         <div className="flex md:flex-row md:items-center flex-col-reverse items-center gap-10">
           <div className="grow w-full">
