@@ -142,8 +142,8 @@
   --title-component-end: #1c0c3a;
 
   /* qualification  */
-  --qualification-bg:#010002;
-  --qualification-text:#d1a9fa;
+  --qualification-bg: #010002;
+  --qualification-text: #d1a9fa;
 
   /* qualification item component */
   --card-component-bg-start: #0f0715;
@@ -174,10 +174,16 @@
   --client-stories-bg-end: #1a0f2c;
   --client-stories-title-start: #7b17ce;
   --client-stories-title-end: #e0d7ee;
-  --client-card-bg: #140c1c;
-  --client-card-icon: #7a39bb;
-  --client-text: #ddd;
-  --client-card-shadow-hover: #431c92;
+  --client-stories-text: #e0d7ee;
+
+  /* client story card  */
+  --client-story-card-bg: #140c1c;
+  --client-story-card-icon: #7a39bb;
+  --client-story-text: #ddd;
+  --client-story-card-shadow-hover: #431c92;
+  --client-story-card-company-logo: #dfd4f7;
+  --client-story-card-name: #dfd4f7;
+
 
   /* stick dots  */
   --stick-dots-bg: #9474ad;
