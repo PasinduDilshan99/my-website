@@ -4,7 +4,7 @@ import ContactInformationCard from "./ContactInformationCard";
 
 const ContactInformation = () => {
   return (
-    <div className="flex">
+    <div className="xl:flex hidden">
       {contactDetails.map((contactDetail) => {
         return (
           <div key={contactDetail.id} className="">

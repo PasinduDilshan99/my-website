@@ -4,11 +4,11 @@ import FooterRight from "./FooterRight";
 
 const FooterTop = () => {
   return (
-    <div className="flex items-center">
-      <div className="w-[30%]">
+    <div className="flex flex-col xl:flex-row items-center">
+      <div className="xl:w-[30%]">
         <FooterLeft />
       </div>
-      <div>
+      <div className="xl:w-[70%] w-full">
         <FooterRight />
       </div>
     </div>

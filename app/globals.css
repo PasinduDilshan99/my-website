@@ -227,6 +227,7 @@
   --contact-details-text: #daccf5;
 
   /* footer  */
+  --footer-text:#fcfbff;
   --footer-bottom-copyright-text: #8750f7;
   --footer-bottom-copyright-text-title: #641ff0;
   --footer-horizontal-line: #b293f0;
@@ -234,6 +235,7 @@
   --footer-social-media-icon-color-hover: #260664;
   --footer-social-media-icon-border-color: #8560d1;
   --footer-contact-information-icon: #5a1cd6;
+  --footer-contact-information-text: #d6c2ff;
   --footer-top-horizontal-line: #b293f0;
   --footer-input-bg: #fcfbff;
   --footer-input-text: #3c00f1;
