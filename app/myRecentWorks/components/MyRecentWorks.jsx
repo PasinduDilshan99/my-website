@@ -5,6 +5,7 @@ import FilterButton from "./FilterButton";
 import RecentProjectComponent from "./RecentProjectComponent";
 import { recentProjects } from "../../../assets/recentProject";
 
+
 const MyRecentWorks = () => {
   const [selectedType, setSelectType] = useState("all");
 
@@ -16,8 +17,7 @@ const MyRecentWorks = () => {
             My Recent Works
           </div>
           <div className="text-center text-md  md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl max-w-[85%]">
-            We put your ideas and thus your wishes in the form of a unique web
-            project that inspires you and your customers.
+            We put your ideas and thus your wishes in the
           </div>
         </div>
         <div className="flex justify-center">
